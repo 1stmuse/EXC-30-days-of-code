@@ -5,7 +5,7 @@ const getFibonacciNum = (num) => {
     if(num==0 || num==1){
         return num
     }else{
-        return getFibonacciNum(num-1) + getFibonacciNum(num-2)
+        return result = getFibonacciNum(num-1) + getFibonacciNum(num-2)
     }
 }
 
