@@ -1,13 +1,12 @@
 
-const getFirstFibonaccinum = (num) => {
-
-    let [prevVal, nextVal, answer]= [0, 1,]
-    
-    for(i=1; i<num; i++){
-        [prevVal, nextVal] = [nextVal, prevVal+nextVal]
+const getFibonacciNum = (num) => {
+    let result ;
+    //to get the first and second term on the fibonacci series
+    if(num==0 || num==1){
+        return num
+    }else{
+        return getFibonacciNum(num-1) + getFibonacciNum(num-2)
     }
-
-    return answer=nextVal
 }
 
-console.log(getFirstFibonaccinum(8))
+console.log(getFibonacciNum(7))
