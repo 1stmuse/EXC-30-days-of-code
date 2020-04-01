@@ -10,3 +10,5 @@ const getFibonacciNum = (num) => {
 }
 
 console.log(getFibonacciNum(7))
+
+
