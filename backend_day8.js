@@ -16,4 +16,4 @@ const convertNumToRoman = (num) =>{
     return result
 }
 
-console.log(convertNumToRoman(4))
+console.log(convertNumToRoman(66))
